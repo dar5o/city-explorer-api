@@ -7,7 +7,7 @@
 api for city explorer web app. this web app allows you to hone in on a location and view the map of the city, weather updates, movie recommendations and also restaurants!
 
 ## Getting Started
-<!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
+before the user build this app on his machine he should install express ,cors and dotenv
 
 ## Architecture
 <!-- Provide a detailed description of the application design. What technologies (languages, libraries, etc) you're using, and any other relevant design information. -->
@@ -19,3 +19,11 @@ api for city explorer web app. this web app allows you to hone in on a location 
 
 ## Credit and Collaborations
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->
+
+Estimate of time needed to complete this lab: 2 houres_
+
+Start time: 2.5 pm
+
+Finish time: 6.5 pm
+
+Actual time needed to complete: 4 HOURS
