@@ -17,7 +17,7 @@ app.use(cors());
 
 
 //hardwire port from .env
-const PORT = process.env.PORT || 3000;
+const url = process.env.URL;
 
 
 let axios = require('axios');
@@ -90,6 +90,6 @@ app.get('*',(request, response) => {
    response.status(404).send('route is not found');
 })
 
-app.listen(PORT, () => {
-   console.log(`Listening on PORT ${PORT}`);
+app.listen(url, () => {
+   console.log(`Listening on PORT ${url}`);
 })
