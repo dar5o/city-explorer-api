@@ -12,6 +12,9 @@ const cors = require('cors');
 const app = express();
 app.use(cors());
 
+//constructing superagent
+const superagent = require('superagent');
+
 //hardwire port from .env
 
 const PORT = process.env.PORT;
